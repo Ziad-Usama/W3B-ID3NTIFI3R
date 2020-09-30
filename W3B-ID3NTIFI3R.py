@@ -4,7 +4,7 @@ import socket
 import subprocess
 import sys
 # Opening file to write the results
-f = open("results.txt","w+")
+f = open("result.txt","w+")
 # Clearing the shell
 subprocess.call('clear', shell=True)
 # Getting the file specific path from the user
